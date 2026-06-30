@@ -16,7 +16,7 @@
 // ===========================================================================
 
 // 把 "*" 换成你的站点,例如 "https://snowdrift327.github.io" 可减少被盗用风险。
-const ALLOWED_ORIGIN = "*";
+const ALLOWED_ORIGIN = "https://snowdrift327.github.io";
 
 // ---- 评分标准:按"优秀 G6 申请者"的尺子(要调严/调松,改这里) ----
 const SYSTEM =
