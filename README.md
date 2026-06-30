@@ -1,6 +1,6 @@
 # ISEE Essay Studio
 
-Taotao 的 ISEE Lower Level 限时作文模拟器:随机出题 → 30 分钟倒计时 → 计时结束(或提前交)自动调用 Claude,按**优秀 G6 标准**给出评价并指出具体错误。练习记录存在浏览器 `localStorage` 里。
+ISEE Lower Level 限时作文模拟器:随机出题 → 30 分钟倒计时 → 计时结束(或提前交)自动调用 Claude,按**优秀 G6 标准**给出评价并指出具体错误。练习记录存在浏览器 `localStorage` 里。
 
 技术栈:Vite + React。评价通过你自己的代理(Cloudflare Worker)调用 Anthropic API——key 不进前端。
 
