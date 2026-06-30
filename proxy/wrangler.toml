@@ -1,0 +1,7 @@
+name = "isee-essay-proxy"
+main = "worker.js"
+compatibility_date = "2024-07-01"
+
+# 部署后设置密钥(不要写在这里):
+#   wrangler secret put ANTHROPIC_API_KEY
+#   wrangler secret put APP_SECRET   # 可选
